@@ -526,6 +526,10 @@ color: var(--first-color);
     width: 45%;
 }
 
+.skills__git {
+    width: 20%;
+}
+
 .skills__react {
     width: 5%;
 }
