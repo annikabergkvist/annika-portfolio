@@ -507,23 +507,23 @@ color: var(--first-color);
 }
 
 .skills__html {
-    width: 85%;
+    width: 75%;
 }
 
 .skills__css {
-    width: 70%;
-}
-
-.skills__js {
     width: 60%;
 }
 
+.skills__js {
+    width: 50%;
+}
+
 .skills__wp {
-    width: 90%;
+    width: 75%;
 }
 
 .skills__sass {
-    width: 45%;
+    width: 35%;
 }
 
 .skills__git {
@@ -544,11 +544,11 @@ color: var(--first-color);
 }
 
 .skills__illustrator {
-    width: 60%;
+    width: 30%;
 }
 
 .skills__figma {
-    width: 40%;
+    width: 30%;
 }
 
 .skills__webman {
