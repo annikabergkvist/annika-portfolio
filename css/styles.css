@@ -5,7 +5,7 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-        --hue-color: 46; 
+        --hue-color: 90; 
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 36%, 64%);
@@ -25,7 +25,7 @@
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
 
-    --big-font-size: 2rem;
+    --big-font-size: 4rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
@@ -155,9 +155,14 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-    max-width: 768px;
+    max-width: 1200px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
+}
+
+.container2 {
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .grid {
@@ -363,7 +368,7 @@ color: var(--first-color-alt);
 
 .button__icon {
     font-size: 1.25rem;
-    margin-left: var(--mb-0-25);
+    margin-left: 10px;
     transition: 3s;
 }
 
@@ -384,6 +389,7 @@ color: var(--first-color-alt);
 
 .button--small {
     padding: .75rem 1rem;
+    margin-top: 27px;
 }
 
 .button--link {
@@ -399,10 +405,9 @@ color: var(--first-color);
 
 /*==================== ABOUT ====================*/
 .about__img {
-    width: 200px;
+    width: 550px!important;
     border-radius: .5rem;
-    justify-self: center;
-    align-self: center;
+    align-self: end;
 }
 
 .about__description {
@@ -716,8 +721,8 @@ transform: translateX(.25rem);
 .services__modal-content {
     position: relative;
     background-color: var(--container-color);
-    padding: 1.5rem;
-    border-radius: .5rem;
+    padding: 3.5rem;
+    border-radius: 0.5rem;
 }
 
 .services__modal-services {
@@ -764,13 +769,13 @@ transform: translateX(.25rem);
 }
 
 .portfolio__img {
-    width: 265px;
+    width: 100%!important;
     border-radius: .5rem;
     justify-self: center;
 }
 
 .portfolio__title {
-    font-size: var(--h3-font-size);
+    font-size: 1.5rem;
     margin-bottom: var(--mb-0-5);
 }
 
@@ -903,7 +908,7 @@ text-align: center;
 }
 /*==================== FOOTER ====================*/
 .footer {
-    padding-top: 2rem;
+    padding-top: 9rem;
 }
 
 .footer__container {
@@ -932,6 +937,8 @@ margin-bottom: .1rem;
     flex-direction: column;
     row-gap: 1.5rem;
     font-weight: var(--font-medium);
+    justify-content: center;
+
 }
 
 .footer__link:hover {
@@ -950,7 +957,7 @@ margin-bottom: .1rem;
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: darkolivegreen;
     margin-top: var(--mb-3);    
 }
 
@@ -1212,7 +1219,7 @@ margin-bottom: .1rem;
     }
 
     .services__container {
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(4, 1fr)!important;
     }
 
     .services__icon {
@@ -1224,7 +1231,7 @@ margin-bottom: .1rem;
     }
 
     .services__modal-content {
-        width: 450px;
+        width: 538px;
     }
 
     .portfolio__img {
@@ -1294,7 +1301,7 @@ margin-bottom: .1rem;
     }
 
     .services__container {
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(4, 1fr)!important;
     }
 
     .portfolio__content {
@@ -1318,7 +1325,7 @@ margin-bottom: .1rem;
     }
 
     .contact__form {
-        width: 460px;
+        width: 735px;
     }
 
     .contact__inputs {
