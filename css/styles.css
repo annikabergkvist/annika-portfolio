@@ -14,6 +14,7 @@
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color2: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 43%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
@@ -72,6 +73,7 @@ body.dark-theme {
        --first-color-second: hsl(var(--hue-color), 30%, 8%);
        --title-color: hsl(var(--hue-color), 8%, 95%);
        --text-color: hsl(var(--hue-color), 8%, 75%);
+       --text-color2: hsl(var(--hue-color), 36%, 77%);
        --input-color: hsl(var(--hue-color), 29%, 16%);
        --body-color: hsl(var(--hue-color), 28%, 12%);
        --container-color: hsl(var(--hue-color), 29%, 16%);
@@ -313,7 +315,7 @@ color: var(--first-color-alt);
 
 .home__subtitle {
     font-size: 4rem;
-    color: var(--text-color);
+    color: var(--text-color2);
     font-weight: 800;
     margin-bottom: var(--mb-0-75);
 }
@@ -1229,7 +1231,7 @@ margin-bottom: .1rem;
     }
 
     .services__container {
-        grid-template-columns: repeat(4, 1fr)!important;
+        grid-template-columns: repeat(3, 1fr)!important;
     }
 
     .services__icon {
@@ -1311,7 +1313,8 @@ margin-bottom: .1rem;
     }
 
     .services__container {
-        grid-template-columns: repeat(4, 1fr)!important;
+        grid-template-columns: repeat(3, 1fr)!important;
+        padding-right: 164px;
     }
 
     .portfolio__content {
