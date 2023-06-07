@@ -561,7 +561,10 @@ color: var(--first-color);
 }
 
 .skills__Figma {
-    width: 55%;
+    width: 65%;
+}
+.skills__XD {
+    width: 45%;
 }
 
 .skills__wf {
